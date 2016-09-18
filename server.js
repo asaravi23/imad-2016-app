@@ -5,12 +5,54 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var article1= {
+    title:'Article 1 | asaravi',
+    heading: 'article 1',
+    date: '5 september 2016',
+    content: `
+           <p>
+           hi this is asanga.
+           </p>
+           <p> hi my name is asanga kumar
+           </p>
+           <p>
+           hello this is a linked object
+           </p>
+           `
+};
+
+function createtemplate (data) {
+    var title=data.title;
+    var heading=data.heading;
+    var date=data.date;
+    var content= data.content;
+    
+    
+
+var htmltemplate= `
+<html>
+<head>
+</head>
+<body bgcolor="blue">
+hello
+${content}
+${date}
+${heading}
+${title}
+</body>
+</html>
+
+
+
+`;
+return htmltemplate;
+}
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
 app.get('/article1',function(req,res)
-{  res.sendFile(path.join(__dirname, 'ui', 'article1.html'));
+{  res.send(createtemplate(articleone));
 });
 
 
