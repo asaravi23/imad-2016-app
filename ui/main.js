@@ -30,7 +30,7 @@ button.onclick=function()
 
 
 var nameinput= document.getElementById('name');
-var submit= document.getElementById('submit');
+var submit= document.getElementById('submitit');
 var name= nameinput.value;
  submit.onclick= function(){
      var names=['name1','name2','name3', 'name4'];
@@ -40,7 +40,7 @@ var name= nameinput.value;
          
      }
   
-    var ul= document.geteElementById('list');
+    var ul= document.getElementById('list');
     ul.innerHTML= list;
      
     
