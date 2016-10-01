@@ -55,6 +55,13 @@ app.get('/article1',function(req,res)
 {  res.send(createtemplate(articleone));
 });
 
+var counter=0;
+app.get('/counter', function(req,res)
+{
+    counter=counter+1;
+    req.send(counter.toString());
+});
+
 
 app.get('/article2',function(req,res)
 { res.send('Article 2 requested');
