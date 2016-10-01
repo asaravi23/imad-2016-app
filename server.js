@@ -62,7 +62,12 @@ app.get('/counter', function(req,res)
     res.send(counter.toString());
 });
 
-
+var names= [];
+app.get('/submit-name', function(req,res){
+    var name=req.query.name;
+    names.push(name);
+    res.send( JSON.stringify(names));
+});
 app.get('/article2',function(req,res)
 { res.send('Article 2 requested');
 });
@@ -85,10 +90,4 @@ app.get('/ui/madi.png', function (req, res) {
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
 app.listen(8080, function () {
   console.log(`IMAD course app listening on port ${port}!`);
-});
-var names= [];
-app.get('/submit-name/:name', function(req,res){
-    var name=req.params.name;
-    names.push(name);
-    res.send( JSON.stringify(names));
 });
