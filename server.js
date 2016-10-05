@@ -75,6 +75,10 @@ app.get('/article2',function(req,res)
 app.get('/article3',function(req,res)
 { res.send('Article 3 requested');
 });
+app.get('/ui/article1.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'article1.html'));
+});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
