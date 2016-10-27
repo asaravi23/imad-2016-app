@@ -1,7 +1,7 @@
 #first
 {
-    height:400px;
-    width:1360px;
+    height:300px;
+    width:1353px;
     background:green;
     position:absolute;
     visibility:hidden;
@@ -11,8 +11,8 @@
 
 #background
 {
-    height:400px;
-    width:1360px;
+    height:300px;
+    width:1353px;
     background:white;
     position:relative;
     visibility:hidden;
@@ -22,8 +22,8 @@
 
 #second
 {
-    height:400px;
-    width:1360px;
+    height:300px;
+    width:1353px;
     background:red;
     position:absolute; visibility:hidden;
 }
@@ -32,8 +32,8 @@
 
 #third
 {
-    height:400px;
-    width:1360px;
+    height:300px;
+    width:1353px;
     background:yellow;
     position:absolute; visibility:hidden;
 }
