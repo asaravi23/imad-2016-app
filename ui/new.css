@@ -38,3 +38,11 @@
     position:absolute; visibility:hidden;
 }
 
+
+#bar
+{
+    height:100px;
+    width:1353px;
+    position:absolute;
+}
+
