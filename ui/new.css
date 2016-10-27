@@ -4,6 +4,7 @@
     width:1360px;
     background:green;
     position:absolute;
+    visibility:hidden;
  }
 
 
@@ -14,6 +15,7 @@
     width:1360px;
     background:white;
     position:relative;
+    visibility:hidden;
  }
 
 
