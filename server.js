@@ -48,7 +48,7 @@ ${title}
 return htmltemplate;
 }
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index1.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
 app.get('/article1',function(req,res)
