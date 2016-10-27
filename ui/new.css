@@ -1,1 +1,32 @@
+#first
+{
+    height:400px;
+    width:500px;
+    background:green;
+    position:absolute;
+}
+
+#main
+{
+    height:400px;
+    width:500px;
+    background:white;
+    position:relative;
+}
+
+#second
+{
+    height:400px;
+    width:500px;
+    background:red;
+    position:absolute;
+}
+
+#third
+{
+    height:400px;
+    width:500px;
+    background:yellow;
+    position:absolute;
+}
 
