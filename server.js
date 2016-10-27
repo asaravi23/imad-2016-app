@@ -48,7 +48,7 @@ ${title}
 return htmltemplate;
 }
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'index1.html'));
 });
 
 app.get('/article1',function(req,res)
@@ -77,6 +77,9 @@ app.get('/article3',function(req,res)
 });
 app.get('/ui/article1.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article1.html'));
+});
+app.get('/ui/index1.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'index1.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
