@@ -1,32 +1,38 @@
 #first
 {
     height:400px;
-    width:500px;
+    width:1360px;
     background:green;
     position:absolute;
-}
+ visibility:hidden;}
 
-#main
+
+
+#background
 {
     height:400px;
-    width:500px;
+    width:1360px;
     background:white;
     position:relative;
-}
+ visibility:hidden;}
+
+
 
 #second
 {
     height:400px;
-    width:500px;
+    width:1360px;
     background:red;
-    position:absolute;
+    position:absolute; visibility:hidden;
 }
+
+
 
 #third
 {
     height:400px;
-    width:500px;
+    width:1360px;
     background:yellow;
-    position:absolute;
+    position:absolute; visibility:hidden;
 }
 
