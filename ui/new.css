@@ -1,7 +1,7 @@
 #first
 {
     height:300px;
-    width:1353px;
+    width:1347px;
     background:green;
     position:absolute;
     visibility:hidden;
@@ -12,7 +12,7 @@
 #background
 {
     height:300px;
-    width:1353px;
+    width:1347px;
     background:white;
     position:relative;
     visibility:hidden;
@@ -23,7 +23,7 @@
 #second
 {
     height:300px;
-    width:1353px;
+    width:1347px;
     background:red;
     position:absolute; visibility:hidden;
 }
@@ -33,7 +33,7 @@
 #third
 {
     height:300px;
-    width:1353px;
+    width:1347px;
     background:yellow;
     position:absolute; visibility:hidden;
 }
@@ -42,7 +42,7 @@
 #bar
 {
     height:50px;
-    width:1353px;
+    width:1347px;
     background:blue;
     position:relative;
 }
@@ -51,7 +51,7 @@
 {
     top:320px;
     height:300px;
-    width:1353px;
+    width:1347px;
     background:grey;
     position:relative;
 }
