@@ -52,6 +52,7 @@
     height:450px;
     width:1353px;
     background:grey;
-    position:relative;
+    position:absolute
+;
 }
 
