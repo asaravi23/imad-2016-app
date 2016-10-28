@@ -49,10 +49,9 @@
 
 #form
 {
-    height:450px;
+    height:300px;
     width:1353px;
     background:grey;
-    position:absolute
-;
+    position:relative;
 }
 
